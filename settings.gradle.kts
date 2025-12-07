@@ -14,40 +14,36 @@
  * limitations under the License.
  */
 
+rootProject.name = "Cinemax"
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 pluginManagement {
-    includeBuild("build-logic")
     repositories {
-        gradlePluginPortal()
-        google()
+        google {
+            mavenContent {
+                includeGroupAndSubgroups("androidx")
+                includeGroupAndSubgroups("com.android")
+                includeGroupAndSubgroups("com.google")
+            }
+        }
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
+        google {
+            mavenContent {
+                includeGroupAndSubgroups("androidx")
+                includeGroupAndSubgroups("com.android")
+                includeGroupAndSubgroups("com.google")
+            }
+        }
         mavenCentral()
     }
 }
 
-rootProject.name = "Cinemax"
-
-include(":app")
-include(":benchmark")
-include(":core:core-common")
-include(":core:core-data")
-include(":core:core-database")
-include(":core:core-datastore")
-include(":core:core-network")
-include(":core:core-domain")
-include(":core:core-model")
-include(":core:core-ui")
-include(":core:core-designsystem")
-include(":core:core-navigation")
-include(":features:feature-home")
-include(":features:feature-search")
-include(":features:feature-wishlist")
-include(":features:feature-settings")
-include(":features:feature-list")
-include(":features:feature-details")
+include(":composeApp")
