@@ -70,6 +70,8 @@ The **Cinemax** app follows Clean Architecture principles with the following lay
 - **Domain**: Use cases and repository interfaces
 - **Data**: Repository implementations, data sources, and mappers
 
+![Architecture diagram](docs/images/architecture-1-overall.png)
+
 # Tech Stack
 
 | Category | Library |
