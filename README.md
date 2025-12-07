@@ -1,3 +1,5 @@
+![Cinemax](docs/images/cinemax-splash.svg)
+
 # Cinemax
 
 Cinemax is a Movies & TV Shows application for Android and iOS, built with Compose Multiplatform.
@@ -8,6 +10,13 @@ Cinemax is a Movies & TV Shows application for Android and iOS, built with Compo
      height="80">](https://apt.izzysoft.de/fdroid/index/apk/com.maximillianleonov.cinemax)
 
 or get the apk from the [Releases section](https://github.com/MaximillianLeonov/Cinemax/releases/latest).
+
+# Preview
+
+<img src="docs/images/screenshot-1-home.png" width="50%"><img src="docs/images/screenshot-2-home.png" width="50%">
+<img src="docs/images/screenshot-3-list.png" width="50%"><img src="docs/images/screenshot-4-details.png" width="50%">
+<img src="docs/images/screenshot-5-search.png" width="50%"><img src="docs/images/screenshot-6-search.png" width="50%">
+<img src="docs/images/screenshot-7-wishlist.png" width="50%"><img src="docs/images/screenshot-8-settings.png" width="50%">
 
 # Getting Started
 
@@ -104,6 +113,8 @@ UI components are designed according to the custom design system and built entir
 using [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/).
 
 The app has one dark theme that uses predefined colors.
+
+![UI Layer Architecture](docs/images/architecture-2-ui-layer.png)
 
 # Credits
 
